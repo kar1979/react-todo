@@ -12,7 +12,7 @@ function App() {
       <header>
         <h1>Tasks management</h1>
       </header>
-      <Filters setInputText={setInputText}/>
+      <Filters todos={tasks} setTasks={setTasks} setInputText={setInputText}/>
       <TaskList />
     </div>
   );

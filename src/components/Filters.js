@@ -10,10 +10,13 @@ class Filters extends Component {
             console.log(e.target.value);
             this.props.setInputText(e.target.value);
         };
+        const submitTodoHandler = (e) => {
+            e.preventDefault();
+        };
         return(
             <form>
                 <input onChange={textHandler} type="text" className="" />
-                <button className="" type="submit">
+                <button onClick={submitTodoHandler} className="" type="submit">
                     <i className="fa fa-plus"></i>
                 </button>
 

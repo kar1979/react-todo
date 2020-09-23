@@ -3,7 +3,7 @@ import React from 'react';
 const TaskList = () => {
     return (
         <div className="">
-            <ul className="">Hi</ul>
+            <ul className=""></ul>
         </div>
     );
 };
